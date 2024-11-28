@@ -1,3 +1,5 @@
+package com.senai;
+
 public class Produto {
     // Atributos da classe
     private String nome;
