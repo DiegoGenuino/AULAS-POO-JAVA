@@ -1,4 +1,4 @@
-package com.senai.pessoa;
+package com.senai.Pessoa;
 
 import java.util.Objects;
 

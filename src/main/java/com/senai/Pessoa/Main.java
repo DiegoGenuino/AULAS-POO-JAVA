@@ -1,4 +1,4 @@
-package com.senai.pessoa;
+package com.senai.Pessoa;
 
 import java.util.ArrayList;
 
@@ -49,9 +49,7 @@ public class Main {
         pessoas[1] = pessoa2;
         pessoas[2] = pessoa3;
 
-        for (){
-            System.out.println(pessoa1);
-        }
+
 
         ArrayList pessoalist = new ArrayList<>();
 
