@@ -1,4 +1,4 @@
-package com.senai.Aluno;
+package com.senai.Aula01.Aluno;
 
 public class Main {
     public static void main(String[] args) {

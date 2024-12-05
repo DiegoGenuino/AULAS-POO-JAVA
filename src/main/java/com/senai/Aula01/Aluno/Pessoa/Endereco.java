@@ -1,4 +1,4 @@
-package com.senai.Pessoa;
+package com.senai.Aula01.Aluno.Pessoa;
 
 public class Endereco {
     String rua;

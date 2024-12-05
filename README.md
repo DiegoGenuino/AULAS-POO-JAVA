@@ -23,7 +23,7 @@ Este repositório contém uma série de exercícios organizados e comentados, ab
 
 ### 🎯 **2. Exercícios Desenvolvidos**
 - **Cadastro de Produtos**:
-  - Classe `com.senai.Produto.Produto` com métodos para atualizar estoque, calcular o valor do estoque e exibir detalhes.
+  - Classe `com.senai.Aula01.Aluno.Produto.Produto` com métodos para atualizar estoque, calcular o valor do estoque e exibir detalhes.
 - **Gerenciamento de Alunos**:
   - Classe `Aluno` para gerenciar informações como nome, idade, nota final, além de verificar aprovação.
 - **(Adicione outros exercícios conforme necessário!)**
