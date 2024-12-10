@@ -1,4 +1,4 @@
-package com.senai.Aula01.Aluno.Pessoa;
+package com.senai.Pessoa;
 
 import java.util.Objects;
 

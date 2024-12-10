@@ -1,4 +1,4 @@
-package com.senai.Aula01.Aluno.Produto;
+package com.senai.Produto;
 
 public class Main {
     public static void main(String[] args) {

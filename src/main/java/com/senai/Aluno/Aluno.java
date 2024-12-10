@@ -1,4 +1,4 @@
-package com.senai.Aula01.Aluno;
+package com.senai.Aluno;
 
 public class Aluno {
     String nomeAluno;
