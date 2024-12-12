@@ -27,6 +27,6 @@ class Produto {
 
     @Override
     public String toString() {
-        return "ID: " + idProduto + " Nome: " + nomeDoProduto + " | Quantidade: " + quantidadeEmEstoque;
+        return "Nome: " + nomeDoProduto + " | Quantidade: " + quantidadeEmEstoque;
     }
 }
