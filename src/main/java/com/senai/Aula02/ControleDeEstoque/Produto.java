@@ -1,15 +1,19 @@
 package com.senai.Aula02.ControleDeEstoque;
 
-public class Produto {
-    String nomeDoProduto;
-    int quantidadeEmEstoque;
+class Produto {
+    private String nomeDoProduto;
+    private int quantidadeEmEstoque;
+    private int idProduto;
+
+    public Produto(String nomeDoProduto) {
+        this.nomeDoProduto = nomeDoProduto;
+        this.quantidadeEmEstoque = 0; // Valor padrão
+    }
+
+   
 
     public String getNomeDoProduto() {
         return nomeDoProduto;
-    }
-
-    public void setNomeDoProduto(String nomeDoProduto) {
-        this.nomeDoProduto = nomeDoProduto;
     }
 
     public int getQuantidadeEmEstoque() {
@@ -20,8 +24,9 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
-    public Produto(String nomeDoProduto) {
-        this.nomeDoProduto = nomeDoProduto;
-        this.quantidadeEmEstoque = quantidadeEmEstoque;
+
+    @Override
+    public String toString() {
+        return "ID: " + idProduto + " Nome: " + nomeDoProduto + " | Quantidade: " + quantidadeEmEstoque;
     }
 }
